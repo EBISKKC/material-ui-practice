@@ -149,7 +149,7 @@ export default function CSSBasicsExample() {
                 border: 1（デフォルト）
               </Paper>
               <Paper sx={{ p: 2, border: 2, borderColor: 'primary.main' }}>
-                border: 2, borderColor: 'primary.main'
+                border: 2, borderColor: &apos;primary.main&apos;
               </Paper>
               <Paper sx={{ p: 2, borderTop: 3, borderColor: 'success.main' }}>
                 borderTop: 3（上のみ）
@@ -193,16 +193,16 @@ export default function CSSBasicsExample() {
           <Paper sx={{ p: 2, bgcolor: 'grey.100' }}>
             <Stack spacing={2}>
               <Paper sx={{ p: 2, bgcolor: 'primary.main', color: 'white' }}>
-                bgcolor: 'primary.main', color: 'white'
+                bgcolor: &apos;primary.main&apos;, color: &apos;white&apos;
               </Paper>
               <Paper sx={{ p: 2, bgcolor: 'secondary.main', color: 'white' }}>
-                bgcolor: 'secondary.main'
+                bgcolor: &apos;secondary.main&apos;
               </Paper>
               <Paper sx={{ p: 2, bgcolor: 'success.light', color: 'success.dark' }}>
-                bgcolor: 'success.light', color: 'success.dark'
+                bgcolor: &apos;success.light&apos;, color: &apos;success.dark&apos;
               </Paper>
               <Paper sx={{ p: 2, bgcolor: '#f0f0f0', color: '#333' }}>
-                bgcolor: '#f0f0f0', color: '#333'（カスタムカラー）
+                bgcolor: &apos;#f0f0f0&apos;, color: &apos;#333&apos;（カスタムカラー）
               </Paper>
             </Stack>
           </Paper>
@@ -240,19 +240,19 @@ export default function CSSBasicsExample() {
                   <Box sx={{ p: 1, bgcolor: 'primary.main', color: 'white' }}>A</Box>
                   <Box sx={{ p: 1, bgcolor: 'primary.main', color: 'white' }}>B</Box>
                   <Box sx={{ p: 1, bgcolor: 'primary.main', color: 'white' }}>C</Box>
-                  <Typography sx={{ ml: 2 }}>← justifyContent: 'flex-start'</Typography>
+                  <Typography sx={{ ml: 2 }}>← justifyContent: &apos;flex-start&apos;</Typography>
                 </Paper>
                 <Paper sx={{ p: 2, display: 'flex', justifyContent: 'center', gap: 1, mb: 1 }}>
                   <Box sx={{ p: 1, bgcolor: 'secondary.main', color: 'white' }}>A</Box>
                   <Box sx={{ p: 1, bgcolor: 'secondary.main', color: 'white' }}>B</Box>
                   <Box sx={{ p: 1, bgcolor: 'secondary.main', color: 'white' }}>C</Box>
-                  <Typography sx={{ ml: 2 }}>← justifyContent: 'center'</Typography>
+                  <Typography sx={{ ml: 2 }}>← justifyContent: &apos;center&apos;</Typography>
                 </Paper>
                 <Paper sx={{ p: 2, display: 'flex', justifyContent: 'space-between', gap: 1 }}>
                   <Box sx={{ p: 1, bgcolor: 'success.main', color: 'white' }}>A</Box>
                   <Box sx={{ p: 1, bgcolor: 'success.main', color: 'white' }}>B</Box>
                   <Box sx={{ p: 1, bgcolor: 'success.main', color: 'white' }}>C</Box>
-                  <Typography>← justifyContent: 'space-between'</Typography>
+                  <Typography>← justifyContent: &apos;space-between&apos;</Typography>
                 </Paper>
               </Box>
 
@@ -264,7 +264,7 @@ export default function CSSBasicsExample() {
                   <Box sx={{ p: 1, bgcolor: 'info.main', color: 'white', height: 30 }}>小</Box>
                   <Box sx={{ p: 1, bgcolor: 'info.main', color: 'white', height: 50 }}>中</Box>
                   <Box sx={{ p: 1, bgcolor: 'info.main', color: 'white', height: 70 }}>大</Box>
-                  <Typography>← alignItems: 'center'</Typography>
+                  <Typography>← alignItems: &apos;center&apos;</Typography>
                 </Paper>
               </Box>
             </Stack>

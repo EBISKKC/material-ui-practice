@@ -287,10 +287,10 @@ export default function SnackbarExample() {
             </Typography>
             <Stack spacing={1}>
               <Typography variant="body2">
-                • <code>vertical: 'top' | 'bottom'</code>
+                • <code>vertical: &apos;top&apos; | &apos;bottom&apos;</code>
               </Typography>
               <Typography variant="body2">
-                • <code>horizontal: 'left' | 'center' | 'right'</code>
+                • <code>horizontal: &apos;left&apos; | &apos;center&apos; | &apos;right&apos;</code>
               </Typography>
             </Stack>
             <Paper sx={{ p: 2, bgcolor: 'grey.900', color: 'grey.100', mt: 2 }}>
